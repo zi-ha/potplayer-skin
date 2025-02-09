@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!--Carefree | Based on FlyDonkey's theSimpleThing2 Black [noBorder]-->
-<Skin Version='2.6' MinorVersion='1000'>
+<!--Zero | Based on FlyDonkey's theSimpleThing2 Black [noBorder]-->
+<Skin Version='1.1' MinorVersion='1000'>
 	#include<string.xml>
 
 	<MainSkinAreaOscFrame Image='main.png' WidthLimit='320' HeightLimit='20' AlphaMode='1' UseWindowFrame='0'>
@@ -23,7 +23,8 @@
 		#include<common.xml #LOGOVAR1=Image #LOGOVAR2=Dummy #LOGOVAR3=Dummy>
 		<Control>
 			<Static Align='Top' IsTitleBar='1' Height='32' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='170' ImageWidth='10' ImageHeight='32'>
-				<Label CmdID='CMD_SYSTEM_TIME_MESSAGE' FontName='Tahoma' FontSize='18' FontBold='1' TextColor='0xFFFFFF' Left='8' Top='4' Width='52'/>
+				<!--<Label CmdID='CMD_SYSTEM_TIME_MESSAGE' FontName='Tahoma' FontSize='18' FontBold='1' TextColor='0xFFFFFF' Left='8' Top='4' Width='52'/>-->				
+				<Label CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='MiSans Semibold' FontSize='17' TextColor='0xFFFFFF' Left='10' Top='6' Height='28' Width='-1' VertAlignment='1'/>
 				<Button AltCmdID='ID_ETC_CLOSE_TIME_SET' Left='8' Top='4' Width='52' Height='28' ImageLeft='500' ImageTop='220'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='1' Left='62' Top='2' Width='28' Height='28' VisParentMaxWidth='385' ImageLeft='300' ImageTop='120'/>
 				<Button Tooltip='$CARE_MAIN_ONTOP_CYCLE' CmdID='ID_ETC_NEXTONTOP' AltCmdID='CMD_POPUPMENU_ETC_ONTOP' AutoVisible='2' Left='62' Top='2' Width='28' Height='28' VisParentMaxWidth='385' ImageLeft='300' ImageTop='150'/>
@@ -40,16 +41,15 @@
 				<Button Tooltip='$CARE_MAIN_EXIT' CmdID='ID_APP_EXIT' Left='-32' Top='4' Width='28' Height='28' ImageLeft='300' ImageTop='0'/>
 			</Static>
 
-			<Static Align='Bottom' Height='132' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='26' ImageWidth='10' ImageHeight='132'>
+			<Static Align='Bottom' Height='125' LeftMargin='1' RightMargin='1' ImageLeft='660' ImageTop='26' ImageWidth='10' ImageHeight='132'>
 				<Static State='CMD_ON_MEDIA_PLAY' Left='36' Top='4' Width='-36' Height='20' VisParentMinWidth='384'>
-					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
-					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_CURRENTTIME_MESSAGE' Enabled='1' FontName='Verdana' FontSize='15' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' Text=' / ' FontName='Verdana' FontSize='15' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
+					<Label Align='Left' CmdID='CMD_TOTALTIME_MESSAGE' FontName='Verdana' FontSize='15' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 					<Layout Align='Left' Width='24'/>
-					<Label Align='Left' CmdID='CMD_TITLE_MESSAGE' UsingScroll='1' ScrollDistance='1' ScrollInterval='50' FontName='Verdana' FontSize='12' TextColor='0xFFFFFF' Width='1' AutoSize='1' VertAlignment='1'/>
 				</Static>
 
-				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-104' Width='-32' Height='20' VisParentMinWidth='359' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
+				<Slider CmdID='CMD_TIMEBAR_CTRL' Cursor='HAND' Left='32' Top='-95' Width='-32' Height='20' VisParentMinWidth='359' LeftMargin='8' RightMargin='8' ImageLeft='400' ImageTop='30' AltImageLeft='400' AltImageTop='10' BackImageLeft='400' BackImageTop='10' OverImageLeft='400' OverImageTop='50' ImageWidth='100' ImageHeight='20' ThumbImageLeft='400' ThumbImageTop='70' ThumbWidth='16' ThumbHeight='20' RepeatAImageLeft='400' RepeatAImageTop='90' RepeatBImageLeft='425' RepeatBImageTop='90' RepeatImageWidth='24' RepeatImageHeight='20' BookmarkImageLeft='450' BookmarkImageTop='90' SeamlessImageLeft='475' SeamlessImageTop='90'/>
 
 				<Button Tooltip='$CARE_MAIN_OPEN_FILE-FOLDER' CmdID='ID_OPEN_FILE' AltCmdID='ID_OPEN_FOLDER' Left='20' Top='-72' Width='48' Height='48' VisParentMinWidth='615' ImageLeft='150' ImageTop='0'/>
 				<Button Tooltip='$CARE_WINDOW_CONTROL' CmdID='ID_CONTROL_BOX_WINDOW' Left='68' Top='-72' Width='48' Height='48' VisParentMinWidth='615' ImageLeft='150' ImageTop='50'/>
