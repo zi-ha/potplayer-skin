@@ -178,17 +178,7 @@
 				<MenuItem CmdID='ID_VIDEO_MARGIN_PERSIST'/>
 			</SubMenu>
 			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_ROTATE'/>
-			<MenuItem/>
-			<MenuItem CmdID='CMD_POPUPMENU_SKIN'/>
-			<SubMenu Name='{$CP0=Control$}{$CP936=控制$}{$CP950=控制$}'>
-				<MenuItem CmdID='ID_PLAYBACK_SHOW_CHAPTER'/>
-				<MenuItem CmdID='ID_PLAYBACK_SHOW_THUMBNAIL'/>
-				<MenuItem CmdID='ID_PLAYBACK_SHOW_TIME'/>
-				<MenuItem/>
-				<MenuItem CmdID='ID_PLAYBACK_HIDE_CURSOR'/>
-				<MenuItem CmdID='ID_PLAYBACK_PREVENT_SCREENSAVE'/>
-			</SubMenu>
-			<MenuItem CmdID='CMD_POPUPMENU_ETC_ONTOP'/>
+			<MenuItem/>			
 		</SubMenu>
 		<SubMenu Name='{$CP0=Audio$}{$CP936=声音$}{$CP950=音訊$}'>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_LANG'/>
@@ -204,15 +194,8 @@
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_SYNC'/>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_PITCH'/>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_CAPTURE'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_AUDIO_EQULIZER'/>
-			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_EQULIZER'/>
-			<MenuItem CmdID='ID_AUDIO_DEC_FILTER'/>
-			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_FILTER'/>
-			<MenuItem/>
+			<MenuItem/>			
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE'/>
-			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE_SPDIF'/>
-			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_DEVICE_SECOND'/>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_CHANNEL'/>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_SAMPLE'/>
 			<MenuItem CmdID='CMD_POPUPMENU_AUDIO_OUTPUT'/>
@@ -233,22 +216,14 @@
 			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_FILTER'/>
 			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_TRANS'/>
 			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_DEVICE'/>
-			<MenuItem CmdID='CMD_POPUPMENU_FILTER'/>
-			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_AVISYNTH'/>
-			<MenuItem CmdID='CMD_POPUPMENU_VIDEO_VAPOURSYNTH'/>
 			<MenuItem/>
 			<MenuItem CmdID='ID_VIDEO_RENDERER_SET'/>
 		</SubMenu>
 		<SubMenu Name='{$CP0=Subtitles$}{$CP936=字幕$}{$CP950=字幕$}'>
 			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_LANG'/>
 			<MenuItem CmdID='ID_CAPTION_VISIBLE'/>
-			<MenuItem CmdID='ID_CAPTION_EXPLORER'/>
-			<MenuItem CmdID='ID_CAPTION_INPUT'/>
 			<MenuItem CmdID='ID_CAPTION_REOPEN'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_CAPTION_COPY_CLIPBOARD'/>
-			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_SAVE'/>
-			<MenuItem/>
+			<MenuItem/>			
 			<SubMenu Name='{$CP0=Subtitle Display$}{$CP936=字幕显示$}{$CP950=字幕顯示$}'>
 				<MenuItem CmdID='ID_CAPTION_IMAGE'/>
 				<MenuItem CmdID='ID_CAPTION_OVERLAY'/>
@@ -266,40 +241,13 @@
 			</SubMenu>
 			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_SYNC'/>
 			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_STEREO'/>
-			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_ONLINE'/>
-			<MenuItem CmdID='CMD_POPUPMENU_CAPTION_TRANS'/>
 			<MenuItem/>
 			<MenuItem CmdID='ID_CAPTION_SET'/>
 		</SubMenu>
 		<MenuItem/>
 		<MenuItem CmdID='CMD_POPUPMENU_TV'/>
 		<MenuItem CmdID='CMD_POPUPMENU_DVD'/>
-		<MenuItem CmdID='CMD_POPUPMENU_BROADCAST'/>
-		<SubMenu Name='{$CP0=Assist$}{$CP936=辅助$}{$CP950=輔助$}'>
-			<MenuItem CmdID='ID_PLAYLIST_WINDOW'/>
-			<MenuItem CmdID='ID_CONTROL_BOX_WINDOW'/>
-			<MenuItem CmdID='ID_CHAT_WINDOW'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_PLAYINFO_OSD'/>
-			<MenuItem CmdID='ID_PLAYINFO_MSG'/>
-			<MenuItem CmdID='ID_PLAYINFO_WINDOW'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_APP_ABOUT'/>
-		</SubMenu>
-		<MenuItem/>
-		<SubMenu Name='{$CP0=Other Settings$}{$CP936=其他设置$}{$CP950=其他設定$}'>
-			<MenuItem CmdID='CMD_POPUPMENU_ETC_SAMEOPEN'/>
-			<MenuItem CmdID='CMD_POPUPMENU_ETC_ETC'/>
-			<MenuItem CmdID='CMD_POPUPMENU_ETC_LANG'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_ETC_DISABLE_SHORTKEY'/>
-			<MenuItem CmdID='ID_ETC_MOUSE_MOVE_TITLE'/>
-			<MenuItem CmdID='ID_ETC_SHOW_HISTROY'/>
-			<MenuItem CmdID='ID_ETC_TOUCH_SUPPORT'/>
-			<MenuItem/>
-			<MenuItem CmdID='ID_ETC_CONFIG_MAG'/>
-			<MenuItem CmdID='ID_BASIC_SETTING'/>
-		</SubMenu>
+		<MenuItem CmdID='CMD_POPUPMENU_BROADCAST'/>				
 		<MenuItem CmdID='ID_OPTION_WINDOW'/>
 		<MenuItem/>
 		<MenuItem CmdID='ID_APP_EXIT'/>
